@@ -25,11 +25,23 @@ const api = axios.create({
 export const createPlaylist = (payload) => api.post(`/playlist`, payload)
 export const readPlaylistById = (id) => api.get(`/playlist/${id}`)
 export const readPlaylistPairs = () => api.get('playlistpairs')
+export const updatePlaylist = (id, payload) => api.put(`/playlist/${id}`, payload);
+export const deletePlaylist = (id) => api.delete(`/playlist/${id}`);
+export const addSongtoPlaylist = (id, index, song) => api.put(`/playlist/${id}`, {addSong: { index: index, song: song }});
+export const updateSongInPlaylist = (id, index, song) => api.put(`/playlist/${id}`, { updateSong: { index, song }});
+export const moveSongInPlaylist = (id, start, end) => api.put(`/playlist/${id}`, { moveSong: { start, end }});
+export const removeSongInPlaylist = (id, index) => api.put(`/playlist/${id}`, { removeSongIndex: index });
 
 const requestSender = {
     createPlaylist,
     readPlaylistById,
-    readPlaylistPairs
+    readPlaylistPairs,
+    updatePlaylist,
+    deletePlaylist,
+    addSongtoPlaylist,
+    updateSongInPlaylist,
+    moveSongInPlaylist,
+    removeSongInPlaylist
 }
 
 export default requestSender

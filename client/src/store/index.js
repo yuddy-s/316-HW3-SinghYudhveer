@@ -206,7 +206,27 @@ export const useGlobalStore = () => {
 
     // THIS FUNCTION PROCESSES CHANGING A LIST NAME
     store.changeListName = function (id, newName) {
- 
+        async function asyncChangeListName() {
+            try {
+                const response = await requestSender.updatePlaylist(id, {name: newName});
+                if(response.data.success) {
+                    const updatedList = response.data.playlist;
+                    const updatedPairs = store.idNamePairs.map(pair => 
+                        pair._id === updatedList._id ? { ...pair, name: updatedList.name } : pair
+                    );
+                    storeReducer({
+                        type: GlobalStoreActionType.CHANGE_LIST_NAME,
+                        payload: { idNamePairs: updatedPairs, playlist: updatedList }
+                    });
+                } else {
+                    console.log("API failed to update playlist name!")
+                }
+            } catch (err) {
+                console.error(err);
+            }
+        }
+
+        asyncChangeListName();
     }
 
     // THIS FUNCTION PROCESSES CLOSING THE CURRENTLY LOADED LIST
@@ -279,7 +299,20 @@ export const useGlobalStore = () => {
         getListToDelete(id);
     }
     store.deleteMarkedList = function() {
-        store.hideModals();
+        async function asyncDelete() {
+            let id = store.listIdMarkedForDeletion;
+            console.log(id);
+
+            const response = await requestSender.deletePlaylist(id);
+            if(response.data.success) {
+                await store.loadIdNamePairs();
+                store.hideModals();
+
+            } else {
+                console.log("API failed to delete playlist!");
+            }
+        }
+        asyncDelete();
     }
     // THIS FUNCTION SHOWS THE MODAL FOR PROMPTING THE USER
     // TO SEE IF THEY REALLY WANT TO DELETE THE LIST
@@ -327,25 +360,97 @@ export const useGlobalStore = () => {
 
     // THIS FUNCTION CREATES A NEW SONG IN THE CURRENT LIST
     // USING THE PROVIDED DATA AND PUTS THIS SONG AT INDEX
-    store.createSong = function(index, song) {
+    store.createSong = async function(index, song) {
+        try {
+            const response = await requestSender.addSongtoPlaylist(store.currentList._id, index, song);
+            if (response.data.success) {
+                await store.setCurrentList(store.currentList._id);
+            } else {
+                console.log("API failed to create song!")
+            }
 
+        } catch (err) {
+            console.error(err);
+        }
     }
     // THIS FUNCTION MOVES A SONG IN THE CURRENT LIST FROM
     // start TO end AND ADJUSTS ALL OTHER ITEMS ACCORDINGLY
-    store.moveSong = function(start, end) {
+    store.moveSong = async function(start, end) {
+        try {
+            const response = await requestSender.moveSongInPlaylist(
+                store.currentList._id,
+                start,
+                end
+            );
+            if(response.data.success) {
+                await store.setCurrentList(store.currentList._id);
+            } else {
+                console.log("API failed to move song!");
+            }
+        } catch (err) {
+            console.error(err)
+        }
 
     }
     // THIS FUNCTION REMOVES THE SONG AT THE index LOCATION
     // FROM THE CURRENT LIST
-    store.removeSong = function(index) {
+    store.removeSong = async function(index) {
+        try {
+            const response = await requestSender.removeSongInPlaylist(
+                store.currentList._id,
+                index
+            );
+            if (response.data.success) {
+                await store.setCurrentList(store.currentList._id);
+            } else {
+                console.log("API failed to remove song")
+            }
+        } catch (err) {
+            console.error(err);
+        }
 
     }
     // THIS FUNCTION UPDATES THE TEXT IN THE ITEM AT index TO text
-    store.updateSong = function(index, songData) {
-
+    store.updateSong = async function(index, songData) {
+        try {
+            const response = await requestSender.updateSongInPlaylist(
+                store.currentList._id,
+                index,
+                songData
+            )
+            if(response.data.success) {
+                await store.setCurrentList(store.currentList._id);
+            } else {
+                console.log("API failed to update song")
+            }
+        } catch (err) {
+            console.error(err);
+        }
     }
     // THIS ADDS A BRAND NEW SONG
-    store.addNewSong = () => {
+    store.addNewSong = async function () {
+        try {
+            const newSong = {
+                title: "Untitled",
+                artist: "???",
+                year: 2000,
+                youTubeId: "dQw4w9WgXcQ"
+            }
+
+            const response = await requestSender.addSongtoPlaylist(
+                store.currentList._id,
+                store.currentList.songs.length,
+                newSong
+            )
+
+            if(response.data.success) {
+                await store.setCurrentList(store.currentList._id);
+            } else {
+                console.log("API failed to add new song")
+            }
+        } catch (err) {
+            console.error(err);
+        }
 
     }
     

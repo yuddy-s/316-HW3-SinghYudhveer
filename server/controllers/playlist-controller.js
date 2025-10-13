@@ -109,7 +109,12 @@ updatePlaylist = async (req, res) => {
     }
 
     else if (body.addSong !== undefined) {
-        playlist.songs.push(body.addSong);
+        const { index, song } = body.addSong;
+        if(typeof index === 'number' && index >= 0 && index <= playlist.songs.length) {
+            playlist.songs.splice(index, 0, song);
+        } else {
+            playlist.songs.push(song);
+        }
     }
 
     else if (body.moveSong !== undefined) {
@@ -154,17 +159,13 @@ updatePlaylist = async (req, res) => {
 }
 deletePlaylist = async (req, res) => {
     const { id } = req.params;
-    if(!id) {
-        return res.status(400).json({ status: false, error: "Non-existent-id"})
-    }
-
     const playlist = await Playlist.findById(id);
     if (!playlist) {
-        return res.status(400).json({ status: false, error: "Non-existent playlist"})
+        return res.status(400).json({ success: false, error: "Non-existent playlist"})
     }
 
     await Playlist.findByIdAndDelete(id);
-    return res.status(200).json({ status: true, message: "Playlist deleted successfully!" })
+    return res.status(200).json({ success: true, message: "Playlist deleted successfully!" })
 }
 getPlaylistStartWith = async (req, res) => {
     const { nameStartsWith } = req.query;
