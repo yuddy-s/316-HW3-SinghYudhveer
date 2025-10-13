@@ -25,16 +25,16 @@ function EditToolbar() {
         store.closeCurrentList();
     }
     let addSongClass = "edit-toolbar-button";
-    let canAddSong = store.currentList !== null;
+    let canAddSong = store.currentList !== null && store.currentModal === "NONE";
     if (!canAddSong) addSongClass += "-disabled";
     let undoClass = "edit-toolbar-button";
-    let canUndo = store.canUndo();
+    let canUndo = store.canUndo() && store.currentModal === "NONE";
     if (!canUndo) undoClass += "-disabled";
     let doClass = "edit-toolbar-button";
-    let canDo = store.canDo();
+    let canDo = store.canDo() && store.currentModal === "NONE";
     if (!canDo) doClass += "-disabled";
     let closeClass = "edit-toolbar-button";
-    let canClose = store.currentList !== null;
+    let canClose = store.currentList !== null && store.currentModal === "NONE";
     if (!canClose) closeClass += "-disabled";
     return (
         <span id="edit-toolbar">
