@@ -162,7 +162,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"name\": \"Songs I Find Interesting/Unusual\",\r\n    \"songs\": [\r\n        {\r\n            \"title\": \"The Less I Know The Better\",\r\n            \"artist\": \"Tame Impala\",\r\n            \"year\": 2015,\r\n            \"youTubeId\": \"2SUwOgmvzK4\"\r\n        },\r\n        {\r\n            \"title\": \"Let It Happen\",\r\n            \"artist\": \"Tame Impala\",\r\n            \"year\": 2015,\r\n            \"youTubeId\": \"pFptt7Cargc\"\r\n        },\r\n        {\r\n            \"title\": \"Lost in Yesterday\",\r\n            \"artist\": \"Tame Impala\",\r\n            \"year\": 2020,\r\n            \"youTubeId\": \"utCjuKDXQsE\"\r\n        },\r\n        {\r\n            \"title\": \"Borderline\",\r\n            \"artist\": \"Tame Impala\",\r\n            \"year\": 2020,\r\n            \"youTubeId\": \"2g5xkLqIElU\"\r\n        },\r\n        {\r\n            \"title\": \"Feels Like We Only Go Backwards\",\r\n            \"artist\": \"Tame Impala\",\r\n            \"year\": 2012,\r\n            \"youTubeId\": \"wycjnCCgUes\"\r\n        },\r\n        {\r\n            \"title\": \"End Of Summer\",\r\n            \"artist\": \"Tame Impala\",\r\n            \"year\": 2025,\r\n            \"youTubeId\": \"ulkdUfItyxI\"\r\n        },\r\n        {\r\n            \"title\": \"Is It True\",\r\n            \"artist\": \"Tame Impala\",\r\n            \"year\": 2020,\r\n            \"youTubeId\": \"KN8nJFLu1Rk\"\r\n        },\r\n        {\r\n            \"title\": \"a lantern to a montague\",\r\n            \"artist\": \"Eric Doa ft. d4vd & bixby\",\r\n            \"year\": 2024,\r\n            \"youTubeId\": \"Y5vn-pFqVaw\"\r\n        },\r\n        {\r\n            \"title\": \"Sundress (feat. Tame Impala)\",\r\n            \"artist\": \"A$AP Rocky\",\r\n            \"year\": 2018,\r\n            \"youTubeId\": \"xre-oQn1DhY\"\r\n        },\r\n        {\r\n            \"title\": \"Frontier Psychiatrist\",\r\n            \"artist\": \"The Avalanches\",\r\n            \"year\": 2000,\r\n            \"youTubeId\": \"9Ab6nPFHN8k\"\r\n        },\r\n        {\r\n            \"title\": \"Strange Overtones\",\r\n            \"artist\": \"David Byrne & Brian Eno\",\r\n            \"year\": 2008,\r\n            \"youTubeId\": \"N_zU84vFlgE\"\r\n        },\r\n        {\r\n            \"title\": \"Whirring\",\r\n            \"artist\": \"The Joy Formidable\",\r\n            \"year\": 2009,\r\n            \"youTubeId\": \"Z74_Bi3Ib-8\"\r\n        },\r\n        {\r\n            \"title\": \"Breezeblocks\",\r\n            \"artist\": \"Alt-J\",\r\n            \"year\": 2012,\r\n            \"youTubeId\": \"qf4yK1v2v6E\"\r\n        },\r\n        {\r\n            \"title\": \"Alaska\",\r\n            \"artist\": \"Maggie Rogers\",\r\n            \"year\": 2017,\r\n            \"youTubeId\": \"LVqIhRp6TWc\"\r\n        },\r\n        {\r\n            \"title\": \"Home\",\r\n            \"artist\": \"Edward Sharpe & The Magnetic Zeros\",\r\n            \"year\": 2009,\r\n            \"youTubeId\": \"qekse3NBdNE\"\r\n        },\r\n        {\r\n            \"title\": \"Space Song\",\r\n            \"artist\": \"Beach House\",\r\n            \"year\": 2015,\r\n            \"youTubeId\": \"FYk6uvicBXk\"\r\n        },\r\n        {\r\n            \"title\": \"Roads\",\r\n            \"artist\": \"Portishead\",\r\n            \"year\": 1994,\r\n            \"youTubeId\": \"Roads_VIDEO_ID\"\r\n        },\r\n        {\r\n            \"title\": \"New Person, Same Old Mistakes\",\r\n            \"artist\": \"Tame Impala\",\r\n            \"year\": 2015,\r\n            \"youTubeId\": \"qM0zINtulhM\"\r\n        },\r\n        {\r\n            \"title\": \"movinglikeazombie\",\r\n            \"artist\": \"ericdoa\",\r\n            \"year\": 2020,\r\n            \"youTubeId\": \"sCUJqR5z_YQ\"\r\n        },\r\n        {\r\n            \"title\": \"Pumped Up Kicks\",\r\n            \"artist\": \"Foster The People\",\r\n            \"year\": 2010,\r\n            \"youTubeId\": \"SDTZ7iX4vTQ\"\r\n        }\r\n    ]\r\n}",
+							"raw": "{\r\n    \"name\": \"Songs I Find Interesting or Unusual\",\r\n    \"songs\": [\r\n        {\r\n            \"title\": \"The Less I Know The Better\",\r\n            \"artist\": \"Tame Impala\",\r\n            \"year\": 2015,\r\n            \"youTubeId\": \"2SUwOgmvzK4\"\r\n        },\r\n        {\r\n            \"title\": \"Let It Happen\",\r\n            \"artist\": \"Tame Impala\",\r\n            \"year\": 2015,\r\n            \"youTubeId\": \"pFptt7Cargc\"\r\n        },\r\n        {\r\n            \"title\": \"Lost in Yesterday\",\r\n            \"artist\": \"Tame Impala\",\r\n            \"year\": 2020,\r\n            \"youTubeId\": \"utCjuKDXQsE\"\r\n        },\r\n        {\r\n            \"title\": \"Borderline\",\r\n            \"artist\": \"Tame Impala\",\r\n            \"year\": 2020,\r\n            \"youTubeId\": \"2g5xkLqIElU\"\r\n        },\r\n        {\r\n            \"title\": \"Feels Like We Only Go Backwards\",\r\n            \"artist\": \"Tame Impala\",\r\n            \"year\": 2012,\r\n            \"youTubeId\": \"wycjnCCgUes\"\r\n        },\r\n        {\r\n            \"title\": \"End Of Summer\",\r\n            \"artist\": \"Tame Impala\",\r\n            \"year\": 2025,\r\n            \"youTubeId\": \"ulkdUfItyxI\"\r\n        },\r\n        {\r\n            \"title\": \"Is It True\",\r\n            \"artist\": \"Tame Impala\",\r\n            \"year\": 2020,\r\n            \"youTubeId\": \"KN8nJFLu1Rk\"\r\n        },\r\n        {\r\n            \"title\": \"a lantern to a montague\",\r\n            \"artist\": \"Eric Doa ft. d4vd & bixby\",\r\n            \"year\": 2024,\r\n            \"youTubeId\": \"Y5vn-pFqVaw\"\r\n        },\r\n        {\r\n            \"title\": \"Sundress (feat. Tame Impala)\",\r\n            \"artist\": \"A$AP Rocky\",\r\n            \"year\": 2018,\r\n            \"youTubeId\": \"xre-oQn1DhY\"\r\n        },\r\n        {\r\n            \"title\": \"Frontier Psychiatrist\",\r\n            \"artist\": \"The Avalanches\",\r\n            \"year\": 2000,\r\n            \"youTubeId\": \"9Ab6nPFHN8k\"\r\n        },\r\n        {\r\n            \"title\": \"Strange Overtones\",\r\n            \"artist\": \"David Byrne & Brian Eno\",\r\n            \"year\": 2008,\r\n            \"youTubeId\": \"N_zU84vFlgE\"\r\n        },\r\n        {\r\n            \"title\": \"Whirring\",\r\n            \"artist\": \"The Joy Formidable\",\r\n            \"year\": 2009,\r\n            \"youTubeId\": \"Z74_Bi3Ib-8\"\r\n        },\r\n        {\r\n            \"title\": \"Breezeblocks\",\r\n            \"artist\": \"Alt-J\",\r\n            \"year\": 2012,\r\n            \"youTubeId\": \"qf4yK1v2v6E\"\r\n        },\r\n        {\r\n            \"title\": \"Alaska\",\r\n            \"artist\": \"Maggie Rogers\",\r\n            \"year\": 2017,\r\n            \"youTubeId\": \"LVqIhRp6TWc\"\r\n        },\r\n        {\r\n            \"title\": \"Home\",\r\n            \"artist\": \"Edward Sharpe & The Magnetic Zeros\",\r\n            \"year\": 2009,\r\n            \"youTubeId\": \"qekse3NBdNE\"\r\n        },\r\n        {\r\n            \"title\": \"Space Song\",\r\n            \"artist\": \"Beach House\",\r\n            \"year\": 2015,\r\n            \"youTubeId\": \"FYk6uvicBXk\"\r\n        },\r\n        {\r\n            \"title\": \"Roads\",\r\n            \"artist\": \"Portishead\",\r\n            \"year\": 1994,\r\n            \"youTubeId\": \"Roads_VIDEO_ID\"\r\n        },\r\n        {\r\n            \"title\": \"New Person, Same Old Mistakes\",\r\n            \"artist\": \"Tame Impala\",\r\n            \"year\": 2015,\r\n            \"youTubeId\": \"qM0zINtulhM\"\r\n        },\r\n        {\r\n            \"title\": \"movinglikeazombie\",\r\n            \"artist\": \"ericdoa\",\r\n            \"year\": 2020,\r\n            \"youTubeId\": \"sCUJqR5z_YQ\"\r\n        },\r\n        {\r\n            \"title\": \"Pumped Up Kicks\",\r\n            \"artist\": \"Foster The People\",\r\n            \"year\": 2010,\r\n            \"youTubeId\": \"SDTZ7iX4vTQ\"\r\n        }\r\n    ]\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -266,7 +266,7 @@
 							"raw": "{\r\n    \"name\": \"Songs I Find Interesting/Unusual\",\r\n    \"songs\": [\r\n        {\r\n            \"title\": \"The Less I Know The Better\",\r\n            \"artist\": \"Tame Impala\",\r\n            \"year\": 2015,\r\n            \"youTubeId\": \"2SUwOgmvzK4\"\r\n        },\r\n        {\r\n            \"title\": \"Let It Happen\",\r\n            \"artist\": \"Tame Impala\",\r\n            \"year\": 2015,\r\n            \"youTubeId\": \"pFptt7Cargc\"\r\n        },\r\n        {\r\n            \"title\": \"Lost in Yesterday\",\r\n            \"artist\": \"Tame Impala\",\r\n            \"year\": 2020,\r\n            \"youTubeId\": \"utCjuKDXQsE\"\r\n        },\r\n        {\r\n            \"title\": \"Borderline\",\r\n            \"artist\": \"Tame Impala\",\r\n            \"year\": 2020,\r\n            \"youTubeId\": \"2g5xkLqIElU\"\r\n        },\r\n        {\r\n            \"title\": \"Feels Like We Only Go Backwards\",\r\n            \"artist\": \"Tame Impala\",\r\n            \"year\": 2012,\r\n            \"youTubeId\": \"wycjnCCgUes\"\r\n        },\r\n        {\r\n            \"title\": \"End Of Summer\",\r\n            \"artist\": \"Tame Impala\",\r\n            \"year\": 2025,\r\n            \"youTubeId\": \"ulkdUfItyxI\"\r\n        },\r\n        {\r\n            \"title\": \"Is It True\",\r\n            \"artist\": \"Tame Impala\",\r\n            \"year\": 2020,\r\n            \"youTubeId\": \"KN8nJFLu1Rk\"\r\n        },\r\n        {\r\n            \"title\": \"a lantern to a montague\",\r\n            \"artist\": \"Eric Doa ft. d4vd & bixby\",\r\n            \"year\": 2024,\r\n            \"youTubeId\": \"Y5vn-pFqVaw\"\r\n        },\r\n        {\r\n            \"title\": \"Sundress (feat. Tame Impala)\",\r\n            \"artist\": \"A$AP Rocky\",\r\n            \"year\": 2018,\r\n            \"youTubeId\": \"xre-oQn1DhY\"\r\n        },\r\n        {\r\n            \"title\": \"Frontier Psychiatrist\",\r\n            \"artist\": \"The Avalanches\",\r\n            \"year\": 2000,\r\n            \"youTubeId\": \"9Ab6nPFHN8k\"\r\n        },\r\n        {\r\n            \"title\": \"Strange Overtones\",\r\n            \"artist\": \"David Byrne & Brian Eno\",\r\n            \"year\": 2008,\r\n            \"youTubeId\": \"N_zU84vFlgE\"\r\n        },\r\n        {\r\n            \"title\": \"Whirring\",\r\n            \"artist\": \"The Joy Formidable\",\r\n            \"year\": 2009,\r\n            \"youTubeId\": \"Z74_Bi3Ib-8\"\r\n        },\r\n        {\r\n            \"title\": \"Breezeblocks\",\r\n            \"artist\": \"Alt-J\",\r\n            \"year\": 2012,\r\n            \"youTubeId\": \"qf4yK1v2v6E\"\r\n        },\r\n        {\r\n            \"title\": \"Alaska\",\r\n            \"artist\": \"Maggie Rogers\",\r\n            \"year\": 2017,\r\n            \"youTubeId\": \"LVqIhRp6TWc\"\r\n        },\r\n        {\r\n            \"title\": \"Home\",\r\n            \"artist\": \"Edward Sharpe & The Magnetic Zeros\",\r\n            \"year\": 2009,\r\n            \"youTubeId\": \"qekse3NBdNE\"\r\n        },\r\n        {\r\n            \"title\": \"Space Song\",\r\n            \"artist\": \"Beach House\",\r\n            \"year\": 2015,\r\n            \"youTubeId\": \"FYk6uvicBXk\"\r\n        },\r\n        {\r\n            \"title\": \"Roads\",\r\n            \"artist\": \"Portishead\",\r\n            \"year\": 1994,\r\n            \"youTubeId\": \"Roads_VIDEO_ID\"\r\n        },\r\n        {\r\n            \"title\": \"New Person, Same Old Mistakes\",\r\n            \"artist\": \"Tame Impala\",\r\n            \"year\": 2015,\r\n            \"youTubeId\": \"qM0zINtulhM\"\r\n        },\r\n        {\r\n            \"title\": \"movinglikeazombie\",\r\n            \"artist\": \"ericdoa\",\r\n            \"year\": 2020,\r\n            \"youTubeId\": \"sCUJqR5z_YQ\"\r\n        },\r\n        {\r\n            \"title\": \"Pumped Up Kicks\",\r\n            \"artist\": \"Foster The People\",\r\n            \"year\": 2010,\r\n            \"youTubeId\": \"SDTZ7iX4vTQ\"\r\n        }\r\n    ]\r\n}"
 						},
 						"url": {
-							"raw": "http://localhost:4000/api/playlist/:id",
+							"raw": "http://localhost:4000/api/playlist/68eabd2a7fc67252ecf234b1",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -275,13 +275,7 @@
 							"path": [
 								"api",
 								"playlist",
-								":id"
-							],
-							"variable": [
-								{
-									"key": "id",
-									"value": ""
-								}
+								"68eabd2a7fc67252ecf234b1"
 							]
 						}
 					},
@@ -300,7 +294,7 @@
 							"raw": "{\r\n    \"name\": \"Songs I Find Interesting/Unusual\",\r\n    \"songs\": [\r\n        {\r\n            \"title\": \"The Less I Know The Better\",\r\n            \"artist\": \"Tame Impala\",\r\n            \"year\": 2015,\r\n            \"youTubeId\": \"2SUwOgmvzK4\"\r\n        },\r\n        {\r\n            \"title\": \"Let It Happen\",\r\n            \"artist\": \"Tame Impala\",\r\n            \"year\": 2015,\r\n            \"youTubeId\": \"pFptt7Cargc\"\r\n        },\r\n        {\r\n            \"title\": \"Lost in Yesterday\",\r\n            \"artist\": \"Tame Impala\",\r\n            \"year\": 2020,\r\n            \"youTubeId\": \"utCjuKDXQsE\"\r\n        },\r\n        {\r\n            \"title\": \"Borderline\",\r\n            \"artist\": \"Tame Impala\",\r\n            \"year\": 2020,\r\n            \"youTubeId\": \"2g5xkLqIElU\"\r\n        },\r\n        {\r\n            \"title\": \"Feels Like We Only Go Backwards\",\r\n            \"artist\": \"Tame Impala\",\r\n            \"year\": 2012,\r\n            \"youTubeId\": \"wycjnCCgUes\"\r\n        },\r\n        {\r\n            \"title\": \"End Of Summer\",\r\n            \"artist\": \"Tame Impala\",\r\n            \"year\": 2025,\r\n            \"youTubeId\": \"ulkdUfItyxI\"\r\n        },\r\n        {\r\n            \"title\": \"Is It True\",\r\n            \"artist\": \"Tame Impala\",\r\n            \"year\": 2020,\r\n            \"youTubeId\": \"KN8nJFLu1Rk\"\r\n        },\r\n        {\r\n            \"title\": \"a lantern to a montague\",\r\n            \"artist\": \"Eric Doa ft. d4vd & bixby\",\r\n            \"year\": 2024,\r\n            \"youTubeId\": \"Y5vn-pFqVaw\"\r\n        },\r\n        {\r\n            \"title\": \"Sundress (feat. Tame Impala)\",\r\n            \"artist\": \"A$AP Rocky\",\r\n            \"year\": 2018,\r\n            \"youTubeId\": \"xre-oQn1DhY\"\r\n        },\r\n        {\r\n            \"title\": \"Frontier Psychiatrist\",\r\n            \"artist\": \"The Avalanches\",\r\n            \"year\": 2000,\r\n            \"youTubeId\": \"9Ab6nPFHN8k\"\r\n        },\r\n        {\r\n            \"title\": \"Strange Overtones\",\r\n            \"artist\": \"David Byrne & Brian Eno\",\r\n            \"year\": 2008,\r\n            \"youTubeId\": \"N_zU84vFlgE\"\r\n        },\r\n        {\r\n            \"title\": \"Whirring\",\r\n            \"artist\": \"The Joy Formidable\",\r\n            \"year\": 2009,\r\n            \"youTubeId\": \"Z74_Bi3Ib-8\"\r\n        },\r\n        {\r\n            \"title\": \"Breezeblocks\",\r\n            \"artist\": \"Alt-J\",\r\n            \"year\": 2012,\r\n            \"youTubeId\": \"qf4yK1v2v6E\"\r\n        },\r\n        {\r\n            \"title\": \"Alaska\",\r\n            \"artist\": \"Maggie Rogers\",\r\n            \"year\": 2017,\r\n            \"youTubeId\": \"LVqIhRp6TWc\"\r\n        },\r\n        {\r\n            \"title\": \"Home\",\r\n            \"artist\": \"Edward Sharpe & The Magnetic Zeros\",\r\n            \"year\": 2009,\r\n            \"youTubeId\": \"qekse3NBdNE\"\r\n        },\r\n        {\r\n            \"title\": \"Space Song\",\r\n            \"artist\": \"Beach House\",\r\n            \"year\": 2015,\r\n            \"youTubeId\": \"FYk6uvicBXk\"\r\n        },\r\n        {\r\n            \"title\": \"Roads\",\r\n            \"artist\": \"Portishead\",\r\n            \"year\": 1994,\r\n            \"youTubeId\": \"Roads_VIDEO_ID\"\r\n        },\r\n        {\r\n            \"title\": \"New Person, Same Old Mistakes\",\r\n            \"artist\": \"Tame Impala\",\r\n            \"year\": 2015,\r\n            \"youTubeId\": \"qM0zINtulhM\"\r\n        },\r\n        {\r\n            \"title\": \"movinglikeazombie\",\r\n            \"artist\": \"ericdoa\",\r\n            \"year\": 2020,\r\n            \"youTubeId\": \"sCUJqR5z_YQ\"\r\n        },\r\n        {\r\n            \"title\": \"Pumped Up Kicks\",\r\n            \"artist\": \"Foster The People\",\r\n            \"year\": 2010,\r\n            \"youTubeId\": \"SDTZ7iX4vTQ\"\r\n        }\r\n    ]\r\n}"
 						},
 						"url": {
-							"raw": "http://localhost:4000/api/playlist/:id",
+							"raw": "http://localhost:4000/api/playlist/68eabd417fc67252ecf234cd",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -309,13 +303,7 @@
 							"path": [
 								"api",
 								"playlist",
-								":id"
-							],
-							"variable": [
-								{
-									"key": "id",
-									"value": ""
-								}
+								"68eabd417fc67252ecf234cd"
 							]
 						}
 					},
@@ -334,7 +322,7 @@
 							"raw": "{\r\n    \"name\": \"Songs I Find Interesting/Unusual\",\r\n    \"songs\": [\r\n        {\r\n            \"title\": \"The Less I Know The Better\",\r\n            \"artist\": \"Tame Impala\",\r\n            \"year\": 2015,\r\n            \"youTubeId\": \"2SUwOgmvzK4\"\r\n        },\r\n        {\r\n            \"title\": \"Let It Happen\",\r\n            \"artist\": \"Tame Impala\",\r\n            \"year\": 2015,\r\n            \"youTubeId\": \"pFptt7Cargc\"\r\n        },\r\n        {\r\n            \"title\": \"Lost in Yesterday\",\r\n            \"artist\": \"Tame Impala\",\r\n            \"year\": 2020,\r\n            \"youTubeId\": \"utCjuKDXQsE\"\r\n        },\r\n        {\r\n            \"title\": \"Borderline\",\r\n            \"artist\": \"Tame Impala\",\r\n            \"year\": 2020,\r\n            \"youTubeId\": \"2g5xkLqIElU\"\r\n        },\r\n        {\r\n            \"title\": \"Feels Like We Only Go Backwards\",\r\n            \"artist\": \"Tame Impala\",\r\n            \"year\": 2012,\r\n            \"youTubeId\": \"wycjnCCgUes\"\r\n        },\r\n        {\r\n            \"title\": \"End Of Summer\",\r\n            \"artist\": \"Tame Impala\",\r\n            \"year\": 2025,\r\n            \"youTubeId\": \"ulkdUfItyxI\"\r\n        },\r\n        {\r\n            \"title\": \"Is It True\",\r\n            \"artist\": \"Tame Impala\",\r\n            \"year\": 2020,\r\n            \"youTubeId\": \"KN8nJFLu1Rk\"\r\n        },\r\n        {\r\n            \"title\": \"a lantern to a montague\",\r\n            \"artist\": \"Eric Doa ft. d4vd & bixby\",\r\n            \"year\": 2024,\r\n            \"youTubeId\": \"Y5vn-pFqVaw\"\r\n        },\r\n        {\r\n            \"title\": \"Sundress (feat. Tame Impala)\",\r\n            \"artist\": \"A$AP Rocky\",\r\n            \"year\": 2018,\r\n            \"youTubeId\": \"xre-oQn1DhY\"\r\n        },\r\n        {\r\n            \"title\": \"Frontier Psychiatrist\",\r\n            \"artist\": \"The Avalanches\",\r\n            \"year\": 2000,\r\n            \"youTubeId\": \"9Ab6nPFHN8k\"\r\n        },\r\n        {\r\n            \"title\": \"Strange Overtones\",\r\n            \"artist\": \"David Byrne & Brian Eno\",\r\n            \"year\": 2008,\r\n            \"youTubeId\": \"N_zU84vFlgE\"\r\n        },\r\n        {\r\n            \"title\": \"Whirring\",\r\n            \"artist\": \"The Joy Formidable\",\r\n            \"year\": 2009,\r\n            \"youTubeId\": \"Z74_Bi3Ib-8\"\r\n        },\r\n        {\r\n            \"title\": \"Breezeblocks\",\r\n            \"artist\": \"Alt-J\",\r\n            \"year\": 2012,\r\n            \"youTubeId\": \"qf4yK1v2v6E\"\r\n        },\r\n        {\r\n            \"title\": \"Alaska\",\r\n            \"artist\": \"Maggie Rogers\",\r\n            \"year\": 2017,\r\n            \"youTubeId\": \"LVqIhRp6TWc\"\r\n        },\r\n        {\r\n            \"title\": \"Home\",\r\n            \"artist\": \"Edward Sharpe & The Magnetic Zeros\",\r\n            \"year\": 2009,\r\n            \"youTubeId\": \"qekse3NBdNE\"\r\n        },\r\n        {\r\n            \"title\": \"Space Song\",\r\n            \"artist\": \"Beach House\",\r\n            \"year\": 2015,\r\n            \"youTubeId\": \"FYk6uvicBXk\"\r\n        },\r\n        {\r\n            \"title\": \"Roads\",\r\n            \"artist\": \"Portishead\",\r\n            \"year\": 1994,\r\n            \"youTubeId\": \"Roads_VIDEO_ID\"\r\n        },\r\n        {\r\n            \"title\": \"New Person, Same Old Mistakes\",\r\n            \"artist\": \"Tame Impala\",\r\n            \"year\": 2015,\r\n            \"youTubeId\": \"qM0zINtulhM\"\r\n        },\r\n        {\r\n            \"title\": \"movinglikeazombie\",\r\n            \"artist\": \"ericdoa\",\r\n            \"year\": 2020,\r\n            \"youTubeId\": \"sCUJqR5z_YQ\"\r\n        },\r\n        {\r\n            \"title\": \"Pumped Up Kicks\",\r\n            \"artist\": \"Foster The People\",\r\n            \"year\": 2010,\r\n            \"youTubeId\": \"SDTZ7iX4vTQ\"\r\n        }\r\n    ]\r\n}"
 						},
 						"url": {
-							"raw": "http://localhost:4000/api/playlist/:id",
+							"raw": "http://localhost:4000/api/playlist/68eabd487fc67252ecf234e3",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -343,13 +331,7 @@
 							"path": [
 								"api",
 								"playlist",
-								":id"
-							],
-							"variable": [
-								{
-									"key": "id",
-									"value": ""
-								}
+								"68eabd487fc67252ecf234e3"
 							]
 						}
 					},
@@ -397,7 +379,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n  \"addSong\": {\r\n    \"title\": \"Flashing Lights\",\r\n    \"artist\": \"Kanye West\",\r\n    \"year\": 2007,\r\n    \"youTubeId\": \"ila-hAUXR5U\"\r\n  }\r\n}",
+							"raw": "{\r\n  \"addSong\": {\r\n    \"index\": 19,\r\n    \"song\": {\r\n        \"title\": \"Flashing Lights\",\r\n        \"artist\": \"Kanye West\",\r\n        \"year\": 2007,\r\n        \"youTubeId\": \"ila-hAUXR5U\"\r\n    }\r\n  }\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -435,7 +417,7 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:4000/api/playlist/:id",
+							"raw": "http://localhost:4000/api/playlist/68deaeae86f61ddebee6429b",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -444,13 +426,7 @@
 							"path": [
 								"api",
 								"playlist",
-								":id"
-							],
-							"variable": [
-								{
-									"key": "id",
-									"value": ""
-								}
+								"68deaeae86f61ddebee6429b"
 							]
 						}
 					},
@@ -463,7 +439,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"updateSong\": {\r\n        \"index\": 3,\r\n        \"song\": {\r\n            \"title\": \"Caligo (Remastered)\",\r\n            \"artist\": \"Soma Tanizaki\",\r\n            \"year\": 2025,\r\n            \"youTubeId\": \"vJ7XlyghzW8\"\r\n        }\r\n    }\r\n}",
+							"raw": "{\r\n    \"updateSong\": {\r\n        \"index\": 3,\r\n        \"song\": {\r\n            \"title\": \"Caligo (Remastered)\",\r\n            \"artist\": \"Soma Tanizaki\",\r\n            \"year\": 2025,\r\n            \"youTubeId\": \"o0yz457hVec\"\r\n        }\r\n    }\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -471,7 +447,7 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:4000/api/playlist/:id",
+							"raw": "http://localhost:4000/api/playlist/68deaeae86f61ddebee6429b",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -480,13 +456,7 @@
 							"path": [
 								"api",
 								"playlist",
-								":id"
-							],
-							"variable": [
-								{
-									"key": "id",
-									"value": ""
-								}
+								"68deaeae86f61ddebee6429b"
 							]
 						}
 					},
@@ -507,7 +477,7 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:4000/api/playlist/:id",
+							"raw": "http://localhost:4000/api/playlist/68deaeae86f61ddebee6429b",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -516,13 +486,7 @@
 							"path": [
 								"api",
 								"playlist",
-								":id"
-							],
-							"variable": [
-								{
-									"key": "id",
-									"value": ""
-								}
+								"68deaeae86f61ddebee6429b"
 							]
 						}
 					},
@@ -543,7 +507,7 @@
 							"raw": ""
 						},
 						"url": {
-							"raw": "http://localhost:4000/api/playlist/:id",
+							"raw": "http://localhost:4000/api/playlist/68ed7115d23d705ef869f762",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -552,13 +516,7 @@
 							"path": [
 								"api",
 								"playlist",
-								":id"
-							],
-							"variable": [
-								{
-									"key": "id",
-									"value": ""
-								}
+								"68ed7115d23d705ef869f762"
 							]
 						}
 					},
@@ -600,7 +558,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:4000/api/playlists?nameStartsWith=Old",
+							"raw": "http://localhost:4000/api/playlists/startWith?nameStartsWith=Old",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -608,7 +566,8 @@
 							"port": "4000",
 							"path": [
 								"api",
-								"playlists"
+								"playlists",
+								"startWith"
 							],
 							"query": [
 								{
@@ -626,7 +585,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:4000/api/playlists?title=Runaway&artist=J. Cole",
+							"raw": "http://localhost:4000/api/playlists/getUniqueSongs?title=Change&artist=J. Cole&year=2011",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -634,16 +593,21 @@
 							"port": "4000",
 							"path": [
 								"api",
-								"playlists"
+								"playlists",
+								"getUniqueSongs"
 							],
 							"query": [
 								{
 									"key": "title",
-									"value": "Runaway"
+									"value": "Change"
 								},
 								{
 									"key": "artist",
 									"value": "J. Cole"
+								},
+								{
+									"key": "year",
+									"value": "2011"
 								}
 							]
 						}
